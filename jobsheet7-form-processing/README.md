@@ -346,25 +346,47 @@ if (preg_match($pattern3, $text3, $matches)) {
 
 Kode diatas menggunakan fungsi `preg_match()` untuk mencocokkan pola regex yang sudah dibuat. <br>
 
+**Pertanyaan 5.5:** Buatlah script langkah 14 dengan variable pattern yang di ubah menggunakan `?` (0 atau 1 kali). Catat di sini apa yang anda amati dari penambahan kode program di atas. <br>
 `regex.php`
 
 ```php
-$pattern3 = '/\?/'; // god, good, goood
-$text3 = 'god is good.';
+$patter4 = '/\?/';
+$text4 = 'siapa kamu ?';
 
-if (preg_match($pattern3, $text3, $matches)) {
-  echo "<br>Cocokkan: " . $matches[0];
+if (preg_match($patter4, $text4)) {
+  echo "<br>Ada tanda '?'";
 } else {
-  echo "Tidak ada yang cocok!";
+  echo "Tidak ada tanda '?'";
 }
 ```
 
 **Hasil Percobaan**<br>
-![hasil](img/image-15.png)<br>
+![hasil](img/image-25.png)<br>
 
-**Pertanyaan 5.5:** Catat di sini apa yang anda amati dari penambahan kode program di atas.<br>
+Kode diatas menggunakan fungsi `preg_match()` untuk mengecek apakah ada tanda `?` di dalam variabel `$text4`. <br>
 
- <br>
+**Pertanyaan 5.6:** Buatlah script langkah 14 dengan variable pattern yang di ubah menggunakan `{n,m}`. Catat di sini apa yang anda amati dari penambahan kode program di atas. <br>
+
+`regex.php`
+
+```php
+$patter5 = '/a{1,3}/';
+$text5 = 'cacing besar alaska';
+
+if (preg_match_all($patter5, $text5, $matches)) {
+  echo "Ada " . count($matches[0]) . " huruf 'a'";
+  foreach ($matches[0] as $match) {
+    echo $match;
+  }
+} else {
+  echo "Tidak ada huruf 'a'";
+}
+```
+
+**Hasil Percobaan**<br>
+![hasil](img/image-26.png)<br>
+
+Kode diatas menggunakan fungsi `preg_match_all()` untuk mengecek apakah ada huruf `a` di dalam variabel `$text5`. <br>
 
 ### **Praktikum 6. Form Lanjut**
 
