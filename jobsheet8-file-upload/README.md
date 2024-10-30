@@ -44,9 +44,9 @@ if (isset($_POST["submit"])) {
 ```
 
 **Hasil Percobaan**<br>
-![hasil](/img/image.png)<br>
-![hasil](/img/image-3.png)<br>
-![hasil](/img/image-4.png)<br>
+![hasil](./img/image.png)<br>
+![hasil](./img/image-3.png)<br>
+![hasil](./img/image-4.png)<br>
 
 **Pertanyaan 1.1:** Apa yang anda pahami dari script pada file tersebut. Catat di bawah ini pemahaman anda. <br>
 
@@ -79,8 +79,8 @@ if (isset($_POST["submit"])) {
 ```
 
 **Hasil Percobaan**<br>
-![hasil](/img/image-6.png)<br>
-![hasil](/img/image-5.png)<br>
+![hasil](./img/image-6.png)<br>
+![hasil](./img/image-5.png)<br>
 
 **Pertanyaan 1.2:** Apa yang anda pahami dari penggunaan isset pada file tersebut. Catat di bawah ini pemahaman anda. <br>
 
@@ -113,8 +113,8 @@ if (isset($_POST["submit"])) {
 ```
 
 **Hasil Percobaan**<br>
-![hasil](/img/image-8.png)<br>
-![hasil](/img/image-7.png)<br>
+![hasil](./img/image-8.png)<br>
+![hasil](./img/image-7.png)<br>
 
 **Pertanyaan 1.4:** Apa yang anda pahami dari penggunaan script tersebut. Catat di bawah ini pemahaman anda. <br>
 
@@ -173,9 +173,9 @@ if ($_FILES['files']['name'][0]) {
 ```
 
 **Hasil Percobaan**<br>
-![hasil](/img/image-9.png)<br>
-![hasil](/img/image-10.png)><br>
-![hasil](/img/image-11.png)<br>
+![hasil](./img/image-9.png)<br>
+![hasil](./img/image-10.png)<br>
+![hasil](./img/image-11.png)<br>
 
 **Pertanyaan 2.1:** Apa yang anda pahami dari penggunaan empty pada file tersebut. Catat di bawah ini pemahaman anda. <br>
 
@@ -205,7 +205,7 @@ Pada studi kasus ini, dibuat form dengan input file yang bisa menerima banyak fi
 ```
 
 **Hasil Percobaan**<br>
-![hasil](/img/image-12.png)<br>
+![hasil](./img/image-12.png)<br>
 
 ### **Praktikum Bagian 3: Upload File dengan PHP dan Jquery**
 
@@ -292,8 +292,8 @@ if (isset($_FILES['file'])) {
 ```
 
 **Hasil Percobaan**<br>
-![hasil](/img/image-14.png)<br>
-![hasil](/img/image-13.png)<br>
+![hasil](./img/image-14.png)<br>
+![hasil](./img/image-13.png)<br>
 
 **Pertanyaan 3.1:** Apa yang anda pahami dari penggunaan form pada file tersebut. Catat di bawah ini pemahaman anda. <br>
 
@@ -331,9 +331,9 @@ echo $input;
 ```
 
 **Hasil Percobaan**<br>
-![hasil](/img/image-15.png)<br>
-![hasil](/img/image-16.png)<br>
-![hasil](/img/image-17.png)<br>
+![hasil](./img/image-15.png)<br>
+![hasil](./img/image-16.png)<br>
+![hasil](./img/image-17.png)<br>
 
 **Pertanyaan 4.1:** Apa yang anda pahami dari script pada file tersebut. Catat di bawah ini pemahaman anda. <br>
 
