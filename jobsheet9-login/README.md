@@ -8,7 +8,7 @@
 
 **Pertanyaan 1:** Tunjukkan hasil screenshot isi tabel user <br>
 
-![hasil](/img/image.png)<br>
+![hasil](./img/image.png)<br>
 
 **Pertanyaan 2:** Tuliskan query untuk membuat tabel user menggunakan fungsi mysqli_query() <br>
 
@@ -130,16 +130,16 @@ if ($check) {
 **Pertanyaan 4:** Lakukan login dengan mengetikkan username dan password yang datanya belum tersimpan di database. Jelaskan hasil pengamatanmu <br>
 
 **Hasil Percobaan**<br>
-![hasil](/img/image-3.png)<br>
-![hasil](/img/image-4.png)<br>
+![hasil](./img/image-3.png)<br>
+![hasil](./img/image-4.png)<br>
 
 Karena data username dan password belum tersimpan di database, maka tidak bisa masuk ke halaman admin.
 
 **Pertanyaan 5:** Lakukan login dengan mengetikkan username dan password yang datanya sudah tersimpan di database. Jelaskan hasil pengamatanmu <br>
 
 **Hasil Percobaan**<br>
-![hasil](/img/image-1.png)<br>
-![hasil](/img/image-2.png)<br>
+![hasil](./img/image-1.png)<br>
+![hasil](./img/image-2.png)<br>
 
 Karena data username dan password tersedia di database, maka bisa masuk ke halaman admin. <br>
 
@@ -147,14 +147,14 @@ Karena data username dan password tersedia di database, maka bisa masuk ke halam
 
 **Pertanyaan 6:** Amati hasil yang ditampilkan dan jelaskan hasil pengamatanmu <br>
 
-![hasil](/img/image-5.png)<br>
-![hasil](/img/image-6.png)<br>
+![hasil](./img/image-5.png)<br>
+![hasil](./img/image-6.png)<br>
 
 Pada praktikum diatas ditambahkan kolom level yang nantinya akan mengatur hak akses pada setiap user berdasarkan levelnya. <br>
 
 **Pertanyaan 7:** Tunjukkan hasil screenshot isi tabel user <br>
 
-![hasil](/img/image-7.png)<br>
+![hasil](./img/image-7.png)<br>
 
 ### **Praktikum Bagian 4. Login Multiuser**
 
@@ -232,24 +232,24 @@ if ($row['level'] == 1) {
 
 **Pertanyaan 8:** Lakukan login dengan mengetikkan data admin. Jelaskan hasil pengamatanmu <br>
 
-![hasil](/img/image-1.png)<br>
-![hasil](/img/image-9.png)<br>
-![hasil](/img/image-2.png)<br>
+![hasil](./img/image-1.png)<br>
+![hasil](./img/image-9.png)<br>
+![hasil](./img/image-2.png)<br>
 
 Pada praktikum diatas pada prosesnya kita mengecek level dari user yang login, jika levelnya adalah level 1, maka akan diarahkan ke halaman admin. <br>
 
 **Pertanyaan 9:** Lakukan login dengan mengetikkan data guest. Jelaskan hasil pengamatanmu <br>
 
-![hasil](/img/image-8.png)<br>
-![hasil](/img/image-9.png)<br>
-![hasil](/img/image-10.png)<br>
+![hasil](./img/image-8.png)<br>
+![hasil](./img/image-9.png)<br>
+![hasil](./img/image-10.png)<br>
 
 Pada praktikum diatas pada prosesnya kita mengecek level dari user yang login, jika levelnya adalah level 2, maka akan diarahkan ke halaman guest.
 
 **Pertanyaan 10:** Lakukan login dengan mengetikkan username dan password yang tidak tersimpan di database. Jelaskan hasil pengamatanmu <br>
 
-![hasil](/img/image-3.png)<br>
-![hasil](/img/image-11.png)<br>
+![hasil](./img/image-3.png)<br>
+![hasil](./img/image-11.png)<br>
 
 Pada praktikum diatas karena username dan password tidak tersedia maka terjadi error ketika sistem ingin mengecek levelnya.
 
@@ -271,13 +271,13 @@ echo $_COOKIE['user'];
 
 **Pertanyaan 11:** Amati dan jelaskan hasil pengamatanmu <br>
 
-![hasil](/img/image-12.png)<br>
+![hasil](./img/image-12.png)<br>
 
 Karena cookies dengan key `user` belum dibuat maka muncul error. <br>
 
 **Pertanyaan 12:** Amati dan jelaskan hasil yang ditampilkan. <br>
 
-![hasil](/img/image-13.png)<br>
+![hasil](./img/image-13.png)<br>
 
 Cookies dibuat dengan menjalankan file `cookiesCreate.php`. Pada file tersebut, kita mendefinisikan key `user` dengan nilai `Polinema` sehingga saat kita membuka halaman `cookiesCall.php`, maka akan muncul `Polinema`. <br>
 
@@ -286,7 +286,7 @@ Setelah komputer menyala, nyalakan kembali Apache pada XAMPP <br>
 
 **Pertanyaan 13:** Amati dan jelaskan hasil yang ditampilkan <br>
 
-![hasil](/img/image-13.png)<br>
+![hasil](./img/image-13.png)<br>
 
 Cookiesnya masih tersimpan setelah komputer direstart karena cookiesnya masih tersimpan di browser dengan rentang waktu yang telah ditentukan. <br>
 
@@ -301,7 +301,7 @@ setcookie('user', 'Polinema', time() - 3600);
 
 **Pertanyaan 14:** Amati dan jelaskan hasil yang ditampilkan <br>
 
-![hasil](/img/image-12.png)<br>
+![hasil](./img/image-12.png)<br>
 
 Pada praktikum diatas, kita membuat agar waktu cookiesnya kurang dari waktu yang ditentukan sehingga browser menghapus cookies yang telah dibuat sebelumnya. <br>
 
@@ -362,14 +362,14 @@ if (isset($_POST['beliNovel']) && isset($_POST['beliBuku'])) {
 
 **Pertanyaan 15:** Amati dan jelaskan hasil yang ditampilkan <br>
 
-![hasil](/img/image-14.png)<br>
+![hasil](./img/image-14.png)<br>
 
 Terjadi error undifined array key karena tidak ada nilai yang ditentukan pada key `beliNovel` dan `beliBuku`. <br>
 
 **Pertanyaan 16:** Amati dan jelaskan hasil yang ditampilkan <br>
 
-![hasil](/img/image-15.png)<br>
-![hasil](/img/image-16.png)<br>
+![hasil](./img/image-15.png)<br>
+![hasil](./img/image-16.png)<br>
 
 Karena nilai yang ditentukan pada key `beliNovel` dan `beliBuku` sudah diisi pada formnya, maka jumlah novel dan bukunya bisa ditampilkan. <br>
 
@@ -377,7 +377,7 @@ Tutup browser kemudian buka kembali browser kemudian jalankan kembali kode progr
 
 **Pertanyaan 17:** Amati dan jelaskan hasil yang ditampilkan <br>
 
-![hasil](/img/image-14.png)<br>
+![hasil](./img/image-14.png)<br>
 
 Muncul error karena cookiesnya tidak diatur untuk disimpan berapa lama. <br>
 
@@ -426,9 +426,9 @@ session_start();
 
 **Pertanyaan 18:** Amati dan jelaskan hasil yang ditampilkan <br>
 
-![hasil](/img/image-17.png)<br>
-![hasil](/img/image-18.png)<br>
-![hasil](/img/image-19.png)
+![hasil](./img/image-17.png)<br>
+![hasil](./img/image-18.png)<br>
+![hasil](./img/image-19.png)
 
 Pada praktikum diatas, awalnya terjadi error karena session belum dibuat. Setelah session dibuat maka muncul hasil yang ditampilkan yaitu berupa favorite color dan favorite animal. <br>
 
@@ -458,8 +458,8 @@ session_start();
 
 **Pertanyaan 19:** Amati dan jelaskan hasil yang ditampilkan <br>
 
-![hasil](/img/image-20.png)<br>
-![hasil](/img/image-17.png)<br>
+![hasil](./img/image-20.png)<br>
+![hasil](./img/image-17.png)<br>
 
 Pada praktikum diatas, kita menghapus session yang sudah dibuat dengan fungsi `session_unset()` dan `session_destroy()`. <br>
 
@@ -567,13 +567,13 @@ echo "Anda berhasil log out";
 **Pertanyaan 21:** Jelaskan urutan proses dari login hingga logout (sebutkan juga urutan file yang diproses) <br>
 
 Pertama kita mengakses file `sessionLoginForm.php` dan masuk dengan username dan password yang sudah dibuat sebelumnya. <br>
-![hasil](/img/image-1.png)<br>
+![hasil](./img/image-1.png)<br>
 
 Login diproses dengan file `sessionLoginProcess.php`, kemudian kita akan diarahkan ke halaman `homeSession.php`. <br>
-![hasil](/img/image-9.png)<br>
+![hasil](./img/image-9.png)<br>
 
 Pada halaman `homeSession.php`, kita akan menampilkan username yang sudah login, dan memilih logout.<br>
-![hasil](/img/image-21.png)<br>
+![hasil](./img/image-21.png)<br>
 
 Logout dijalankan dengan file `sessionLogout.php`, kemudian kita akan diarahkan ke halaman `sessionLoginForm.php`. <br>
-![hasil](/img/image-22.png)<br>
+![hasil](./img/image-22.png)<br>
